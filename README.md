@@ -1,17 +1,8 @@
-GeoTrails
-=========
+circulatortrafficviz
 
-(c) 2012 Dave Troy (@davetroy)
+Processing sketch that animates location data collected from the Charm City Circulator's API.  Basemaps with traffic were pulled as screenshots from Google Maps during the same logging period.  
 
-Simple Processing sketch to allow visualization of simple geo-based trails through time.
-Currently ingests a csv file of tweets in the format of:
-screen_name,timestamp,lat,lon
-and displays them as geo trails on a basemap.
+The idea was to see if the effects of traffic on bus spacing would be evident... what do you see?
 
-Create a Mercator-projection basemap using TileMill (http://tilemill.com) as per:
-http://tillnagel.com/2011/06/tilemill-for-processing/
+Made at the "Reinvent Transit" hackathon at Betamore in Baltimore, MD, 2013.
 
-Trails are displayed with a persistence-of-vision effect and gradually fade out.
-The sketch is rendered at a target frame rate of 30fps and each frame loads
-a certain number of seconds worth of tweets to display (currently 287 seconds).
-The sketch will stop running when it runs out of tweets.
