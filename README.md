@@ -1,4 +1,5 @@
 circulatortrafficviz
+====================
 
 Processing sketch that animates location data collected from the Charm City Circulator's API.  Basemaps with traffic were pulled as screenshots from Google Maps during the same logging period.  
 
@@ -6,3 +7,4 @@ The idea was to see if the effects of traffic on bus spacing would be evident...
 
 Made at the "Reinvent Transit" hackathon at Betamore in Baltimore, MD, 2013.
 
+[View the final animation](https://www.youtube.com/watch?v=Bw2V8nAuK9M).
